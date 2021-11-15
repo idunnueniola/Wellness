@@ -1,6 +1,7 @@
 * {
   margin: 0;
   border: 0;
+  padding: 0;
   /* overflow-y: hidden; */
 }
 body {
@@ -11,6 +12,10 @@ body {
   border: 40px; */
   display: flex;
   justify-content: space-between;
+  height: 80px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 40px;
 }
 
 /* end of header */
@@ -24,8 +29,8 @@ body {
 .sec1 img {
   position: relative;
   max-width: 406px;
-  top: 80px;
-  left: -100px;
+  top: 73px;
+  left: -180px;
 }
 
 .yoga {
@@ -60,7 +65,7 @@ body {
 
 .yoga hr {
   background-color: white;
-  width: 370px;
+  width: 730px;
   height: 8px;
 }
 
@@ -70,10 +75,10 @@ body {
   position: relative;
   /* max-width: 40px;
   border-radius: 70px; */
-  width: 160px;
+  width: 250px;
   top: -60px;
-  height: 190px;
-  border-radius: 5px;
+  height: 290px;
+  border-radius: 13px;
   /* width: 290px; */
 }
 
@@ -209,7 +214,7 @@ body {
   position: relative;
   max-width: 600px;
   top: 100px;
-  left: -136px;
+  left: 293px;
 }
 
 .personal {
@@ -234,6 +239,7 @@ body {
 .sec6 {
   background-color: #292d32;
   color: white;
+  height: 800px;
 }
 .list {
   background-color: #e43b76;
@@ -251,45 +257,54 @@ body {
 }
 .grid3 {
   position: relative;
-  margin-left: 140px;
-  margin-right: 140px;
+  /* margin-left: 140px;
+  margin-right: 140px; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0px;
   padding-bottom: 100px;
   height: 490px;
   border-radius: 5px;
+  margin: 140px;
+  bottom: 75px;
 }
 
 .grid3 img {
   max-width: 100%;
   height: 490px;
+  margin-right: 100px;
 }
-/* .firstimage {
+.firstimage {
   position: relative;
   max-width: 100%;
-  height: auto;
+  height: 490px;
+  left: 75px;
 }
 .lastimage {
   position: relative;
   max-width: 100%;
   height: auto;
-} */
-.start {
+}
+*/ .start {
+  /* margin: 140px; */
+  padding-bottom: 50px;
   margin-left: 140px;
   margin-right: 140px;
-  padding: 40px;
 }
 
 .start h2 {
   text-align: center;
   font-size: 25px;
   font-family: "Open Sans", sans-serif;
+  padding-top: 60px;
+  line-height: 50px;
 }
 
 .start p {
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  text-align: center;
 }
 
 /* end of sec6 */
@@ -360,7 +375,7 @@ footer p {
 .towel img {
   position: relative;
   max-width: 400px;
-  left: 300px;
+  left: 500px;
   margin-bottom: 60px;
 }
 
@@ -371,12 +386,12 @@ footer p {
 
 .logo a {
   position: relative;
-  left: 34px;
+  left: 30px;
   color: white;
 }
 
 .logo {
-  margin-left: 450px;
+  margin-left: 630px;
 }
 
 footer hr {
